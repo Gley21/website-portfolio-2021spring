@@ -1,0 +1,20 @@
+
+
+.header {
+margin: 0 auto;
+}
+
+.heart-icon {
+  float: left;
+  background-color: #F35F44;
+}
+
+.soul-icon {
+  float:left;
+  background-color: #4461F3;
+}
+
+.mind-icon {
+  float: left;
+  background-color: #49F344;
+}
