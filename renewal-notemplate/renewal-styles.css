@@ -12,11 +12,13 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  box-shadow: inset 0px -4px 0px 0px #004eb1;
 
 }
 
 h1 {
   justify-content: center;
+  color: #004eb1;
 }
 
 .pages-list {
