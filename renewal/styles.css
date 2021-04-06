@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "cagliostro";
+  src: url(fonts/Cagliostro/Cagliostro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inconsolata";
+  src: url(fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: "average-sans";
+  src: url(fonts/Average_Sans/AverageSans-Regular.ttf);
+}
+
+body {
+  background-color: #bab0a6;
+}
+
+h1 {
+  font-family: cagliostro;
+  font-size: 4em;
+  color: #4d5d53; /* Dark Grey/Green */
+  text-align: center;
+  margin: 0px;
+  /* text-shadow:
+		-1px -1px 0 #4d5d53,
+		1px -1px 0 #4d5d53,
+		-1px 1px 0 #4d5d53,
+		1px 1px 0 #4d5d53; */
+}
+
+h2 {
+  font-family: average-sans;
+  font-size: 2em;
+  color: #484e4f; /* Medium Grey */
+  margin-top: 0px;
+  text-align: center;
+
+}
+h2 > em {
+  color: #4d5d53;
+}
+
+h3 {
+  font-family: cagliostro;
+  color: #4d5d53;
+  font-size: 3em;
+}
+
+p {
+  font-family: average-sans;
+  color: #201913; /* Black */
+}
+
+a {
+  color: #201913;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #78866b; /* Light Green */
+  text-decoration: underline;
+}
+
+/* Home CSS */
+
+.home-page {
+  display: grid;
+  grid-template-rows: repeat(4, minmax(max-content));
+}
+
+.nav {
+ font-family: inconsolata;
+ display: flex;
+ justify-content: center;
+}
+
+ul {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav > ul > li {
+  display: inline-block;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.header-home {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  justify-content: center;
+  box-shadow: inset 0px -4px 0px 0px #757c78; /* Light Grey/Green */
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.icon > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.icon-link:hover {
+  opacity: .5;
+
+}
+
+.label-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+#home-icon-label, .label{
+  font-family: cagliostro;
+  color: #4d5d53;
+  display: flex;
+  justify-content: center;
+}
+
+.summary-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.summary-box {
+  padding-left: 14px;
+  padding-right: 12px;
+  box-shadow: inset 0px 0px 20px 10px #757c78;
+}
+
+/* Home CSS */
+
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+/* Heart CSS */
+
+#heart-titles {
+  font-family: cagliostro;
+  display: flex;
+  justify-content: center;
+}
+
+.heart-caption {
+  margin: 10px;
+  text-align: center;
+}
+
+.blog {
+
+}
+
+.questions {
+
+
+}
+
+.bottom-icon > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+
+
+
+/* Heart CSS */
+
+/* Soul CSS */
+
+
+.songs {
+  text-align: center;
+}
+
+.books-container {
+  display: inline-block;
+  width: 600px;
+  border-style: ridge;
+  border-color: #757c78;
+  background-color: #babfa8;
+  text-align: left;
+}
+
+.books {
+  text-align: center;
+}
+
+
+
+
+
+/* Soul CSS */
+
+
+/* Mind CSS */
+
+.podcasts {
+  text-align: center;
+}
+
+.papers {
+  text-align: center;
+}
+
+.podcast-container {
+  display: inline-block;
+  width: 600px;
+  border-style: ridge;
+  border-color: #757c78;
+  background-color: #babfa8;
+  text-align: center;
+
+}
+
+
+
+
+/* Mind CSS */
