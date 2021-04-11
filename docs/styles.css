@@ -23,11 +23,6 @@ h1 {
   color: #4d5d53; /* Dark Grey/Green */
   text-align: center;
   margin: 0px;
-  /* text-shadow:
-		-1px -1px 0 #4d5d53,
-		1px -1px 0 #4d5d53,
-		-1px 1px 0 #4d5d53,
-		1px 1px 0 #4d5d53; */
 }
 
 h2 {
@@ -156,13 +151,25 @@ ul {
   text-align: center;
 }
 
-.blog {
-
+.blog-header {
+  display: grid;
+  grid-template-columns: 2;
+  text-align: center;
 }
 
-.questions {
+.blog-header > h3 {
+  margin-bottom: 10px;
+}
 
+.blog-header > p {
+  font-size: 1.5em;
+  color: #484e4f;
+}
 
+.blog {
+ display: flex;
+ justify-content: center;
+ margin-top: 25px;
 }
 
 .bottom-icon > img {
@@ -172,35 +179,72 @@ ul {
   width: 20%;
 }
 
-
-
-
-
 /* Heart CSS */
 
 /* Soul CSS */
 
+.songs-container {
+  display: grid;
+  grid-template-columns: 2, minmax(max-content);
+  grid-template-rows: 2, minmax(max-content);
+  width: 100%;
+  border-style: ridge;
+  border-color: #757c78;
+  background-color: #babfa8;
+  text-align: center;
+}
+
+.songs-explain > p {
+  margin: 25px;
+  font-size: 1.5em;
+  color: #484e4f;
+}
+
+.music-box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .songs {
   text-align: center;
 }
 
+
 .books-container {
-  display: inline-block;
-  width: 600px;
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat (2, 1fr);
+  width: 80%;
   border-style: ridge;
   border-color: #757c78;
   background-color: #babfa8;
-  text-align: left;
+  text-align: center;
+  margin-left: 10%;
 }
 
 .books {
   text-align: center;
 }
 
+.books-container > a {
+  font-family: inconsolata;
 
+}
 
+.book-image > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 20%;
+}
 
+.books-container > p {
+  font-family: average-sans;
+  font-size: 2em;
+  color: #484e4f; /* Medium Grey */
+}
 
 /* Soul CSS */
 
@@ -225,7 +269,24 @@ ul {
 
 }
 
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat (6, 1fr);
+  width: 80%;
+  border-style: ridge;
+  border-color: #757c78;
+  background-color: #babfa8;
+  text-align: center;
+}
 
 
+.downloads {
+  box-shadow: inset 0px 2px 0px 0px #757c78; /* Light Grey/Green */
+}
 
 /* Mind CSS */
