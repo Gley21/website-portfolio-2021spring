@@ -13,7 +13,11 @@
   src: url(fonts/Average_Sans/AverageSans-Regular.ttf);
 }
 
-@media {
+@media only screen and (max-width: 400px) {
+  * {
+    grid-template-columns: 1;
+    flex-direction: column;
+  }
 
 }
 
