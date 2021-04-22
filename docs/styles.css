@@ -13,8 +13,15 @@
   src: url(fonts/Average_Sans/AverageSans-Regular.ttf);
 }
 
+@media {
+
+}
+
 body {
+  display: block;
   background-color: #bab0a6;
+  max-width: 70em;
+  margin: auto;
 }
 
 h1 {
@@ -101,6 +108,7 @@ ul {
   margin-right: auto;
   width: 100%;
 }
+
 
 .icon-link:hover {
   opacity: .5;
