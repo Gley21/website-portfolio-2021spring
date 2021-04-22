@@ -18,6 +18,11 @@
     display: grid;
     grid-template-columns: 1;
   }
+  .summary-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
 }
 
 body {
