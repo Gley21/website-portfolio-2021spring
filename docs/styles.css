@@ -13,17 +13,7 @@
   src: url(fonts/Average_Sans/AverageSans-Regular.ttf);
 }
 
-@media only screen and (max-width: 400px) {
-  .home-page {
-    display: grid;
-    grid-template-columns: 1;
-  }
-  .summary-container {
-    display: flex;
-    margin-top: 20px;
-    flex-direction: column;
-  }
-}
+
 
 body {
   display: block;
