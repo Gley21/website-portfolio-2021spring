@@ -130,6 +130,7 @@ ul {
   margin-top: 20px;
 }
 
+
 .summary-box {
   padding-left: 14px;
   padding-right: 12px;
@@ -143,6 +144,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+
 
 /* Heart CSS */
 
@@ -216,7 +218,6 @@ ul {
   text-align: center;
 }
 
-
 .books-container {
   display: grid;
   grid-template-columns: repeat (3, 1fr);
@@ -267,12 +268,11 @@ ul {
 
 .podcast-container {
   display: inline-block;
-  width: 600px;
+  width: 75%;
   border-style: ridge;
   border-color: #757c78;
   background-color: #babfa8;
   text-align: center;
-
 }
 
 .content-container {
@@ -296,3 +296,14 @@ ul {
 }
 
 /* Mind CSS */
+
+/* Mobile CSS */
+@media screen and (max-width: 600px) {
+
+  .summary-container {
+    flex-direction: column;
+  }
+ .music-box {
+   flex-direction: column;
+ }
+}
